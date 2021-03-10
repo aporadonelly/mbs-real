@@ -1,0 +1,110 @@
+{
+    "name": "mbs-cms",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@date-io/date-fns": "^1.3.13",
+        "@material-ui/core": "^4.11.2",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/lab": "^4.0.0-alpha.57",
+        "@material-ui/pickers": "^3.2.10",
+        "@testing-library/jest-dom": "^5.11.8",
+        "@testing-library/react": "^11.2.2",
+        "@testing-library/user-event": "^12.6.0",
+        "aws-amplify": "^3.3.13",
+        "aws-amplify-react": "^4.2.17",
+        "axios": "^0.21.1",
+        "date-fns": "^2.16.1",
+        "dotenv": "^8.2.0",
+        "html-react-parser": "^1.2.4",
+        "material-ui-dropzone": "^3.5.0",
+        "moment": "^2.29.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-material-ui-form-validator": "^2.1.1",
+        "react-quill-2": "^2.0.2",
+        "react-redux": "^7.2.2",
+        "react-responsive-carousel": "^3.2.12",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.1",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "jest --updateSnapshot --coverage --coverageDirectory=output/coverage/jest",
+        "eject": "react-scripts eject",
+        "lint": "eslint . --fix",
+        "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.5",
+        "enzyme-to-json": "^3.6.1",
+        "eslint": "^7.17.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "husky": "^4.3.7",
+        "jest-localstorage-mock": "^2.4.6",
+        "jsdom": "16.4.0",
+        "jsdom-global": "3.0.2",
+        "lint-staged": "^10.5.3",
+        "mutation-observer": "^1.0.3",
+        "prettier": "^2.2.1",
+        "redux-mock-store": "^1.5.4"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "prettier --write"
+        ],
+        "./src/__mocks__": "eslint --ignore-path",
+        "**/*": "prettier --write --ignore-unknown"
+    },
+    "coverageReporters": [
+        "text",
+        "lcov"
+    ],
+    "jest": {
+        "moduleNameMapper": {
+            "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+            "\\.(css|less)$": "<rootDir>/src/__mocks__/fileMock.js",
+            "\\.svg": "<rootDir>/src/__mocks__/svgrMock.js"
+        },
+        "setupFiles": [
+            "jest-localstorage-mock"
+        ],
+        "testEnvironment": "node"
+    }
+}

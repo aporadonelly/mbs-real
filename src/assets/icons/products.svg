@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="current" height="current" viewBox="0 0 16.229 10.819">
+  <g id="credit-card_1_" data-name="credit-card (1)" transform="translate(0 -85.333)">
+    <g id="Group_7697" data-name="Group 7697" transform="translate(0 85.333)">
+      <g id="Group_7696" data-name="Group 7696">
+        <path id="Path_4068" data-name="Path 4068" d="M14.539,85.333H1.691A1.693,1.693,0,0,0,0,87.024v7.438a1.693,1.693,0,0,0,1.691,1.691H14.539a1.693,1.693,0,0,0,1.691-1.691V87.024A1.693,1.693,0,0,0,14.539,85.333Zm1.014,9.129a1.016,1.016,0,0,1-1.014,1.014H1.691A1.016,1.016,0,0,1,.676,94.462V87.024a1.016,1.016,0,0,1,1.014-1.014H14.539a1.016,1.016,0,0,1,1.014,1.014v7.438Z" transform="translate(0 -85.333)" fill="current"/>
+      </g>
+    </g>
+    <g id="Group_7699" data-name="Group 7699" transform="translate(0 87.362)">
+      <g id="Group_7698" data-name="Group 7698">
+        <path id="Path_4069" data-name="Path 4069" d="M15.891,149.333H.338a.338.338,0,0,0-.338.338V151.7a.338.338,0,0,0,.338.338H15.891a.338.338,0,0,0,.338-.338v-2.029A.338.338,0,0,0,15.891,149.333Zm-.338,2.029H.676v-1.352H15.553v1.352Z" transform="translate(0 -149.333)" fill="current"/>
+      </g>
+    </g>
+    <g id="Group_7701" data-name="Group 7701" transform="translate(2.029 92.095)">
+      <g id="Group_7700" data-name="Group 7700">
+        <path id="Path_4070" data-name="Path 4070" d="M68.4,298.667H64.338a.338.338,0,1,0,0,.676H68.4a.338.338,0,1,0,0-.676Z" transform="translate(-64 -298.667)" fill="current"/>
+      </g>
+    </g>
+    <g id="Group_7703" data-name="Group 7703" transform="translate(2.029 93.448)">
+      <g id="Group_7702" data-name="Group 7702">
+        <path id="Path_4071" data-name="Path 4071" d="M68.4,341.333H64.338a.338.338,0,1,0,0,.676H68.4a.338.338,0,1,0,0-.676Z" transform="translate(-64 -341.333)" fill="current"/>
+      </g>
+    </g>
+    <g id="Group_7705" data-name="Group 7705" transform="translate(11.496 91.419)">
+      <g id="Group_7704" data-name="Group 7704">
+        <path id="Path_4072" data-name="Path 4072" d="M364.358,277.333h-.676a1.016,1.016,0,0,0-1.014,1.014v.676a1.016,1.016,0,0,0,1.014,1.014h.676a1.016,1.016,0,0,0,1.014-1.014v-.676A1.016,1.016,0,0,0,364.358,277.333Zm.338,1.691a.338.338,0,0,1-.338.338h-.676a.338.338,0,0,1-.338-.338v-.676a.338.338,0,0,1,.338-.338h.676a.338.338,0,0,1,.338.338Z" transform="translate(-362.667 -277.333)" fill="current"/>
+      </g>
+    </g>
+  </g>
+</svg>

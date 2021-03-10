@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": ["plugin:react/recommended", "airbnb", "prettier", "prettier/react"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "prettier"],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "react/jsx-uses-react": 1,
+        "react/prop-types": 0,
+        "no-var": "error",
+        "no-undef": 1,
+        "no-underscore-dangle": 0,
+        "no-use-before-define": 0,
+        "no-unused-expressions": 0,
+        "new-cap": 0,
+        "no-plusplus": 0,
+        "no-class-assign": 0,
+        "no-case-declarations": 0,
+        "prefer-promise-reject-errors": "off",
+        "import/extensions": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-unresolved": 0,
+        "react/jsx-filename-extension": [
+            0,
+            {
+                "extensions": [".js", ".jsx"]
+            }
+        ],
+        "react/destructuring-assignment": [0, "never"],
+        "react/no-did-update-set-state": 0,
+        "react/jsx-fragments": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-curly-brace-presence": 0,
+        "react/sort-comp": 0,
+        "react/static-property-placement": 0,
+        "func-names": 0,
+        "global-require": 0,
+        "import/order": ["error"],
+        "consistent-return": 0
+    }
+}
